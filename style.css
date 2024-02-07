@@ -1,0 +1,12 @@
+/* font-family: 'Oswald', sans-serif; */
+body{
+    display: flex;
+    height: 100vw;
+}
+.imageLogo{
+flex: 1;
+}
+.rightSide{
+    display: flex;
+    flex: 1;
+}
