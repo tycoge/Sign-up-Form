@@ -11,24 +11,48 @@
 </head>
 <body>
     <div class="leftSide">
-        <img class="image" src="./marek-piwnicki-HghkWDMuHx4-unsplash.jpg" alt="Mountain backdrop">
-        <img class="logo" src="./odin-lined.png" alt="Odin's head">
+        <div class="logo">
+        <img src="./odin-lined.png" alt="Odin's head">
+        <span>ODIN</span>
+    </div>
     </div>
     <div class="rightSide">
         <div class="top">
             <p>This is not a real online service! You know you need 
                 something like this in your life to help you realize your
-                deepest dreams. <br> You know you want to.
+                deepest dreams. <br> You <em>know</em> you want to.
             </p>
         </div>
         <div class="middle">
             <div>Let's do this!</div>
             <div class="forms">
-
+              <form action="" method="post">
+                <div class="line">
+                <label for="FN">FIRST NAME</label>
+                <input type="text" name="" id="FN">
+                <label for="LN">LAST NAME</label>
+                <input type="text" name="" id="LN">
+                </div>
+                <div class="line">
+                <label for="EMAIL">EMAIL</label>
+                <input type="email" name="" id="EMAIL">
+                <label for="PHONE">PHONE NUMBER</label>
+                <input type="tel" name="" id="PHONE">
+                </div>
+                <div class="line">
+                <label for="PW">PASSWORD</label>
+                <input type="password" name="" id="PW">
+                <label for="CONFIRM">CONFIRM PASSWORD</label>
+                <input type="password" name="" id="CONFIRM">
+                </div>
+             
             </div>
         </div>
         <div class="bottom">
-            
+            <button>Create account</button>
+        </form>
+
+            <br>Already have an account? <a href="http://">Log in</a>
         </div>
     </div>
 </body>
@@ -39,6 +63,7 @@ left third is image with odin banner on top third of the image
 top short message
 middle 2 x 3 form (flexbox?) with message above
 bottom create account button, with login link below 
-maybe flexbox the body for the layout of the image and forms
+
+left side is a background, maybe double
 
 -->
